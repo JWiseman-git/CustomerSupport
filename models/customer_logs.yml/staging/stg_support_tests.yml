@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: stg_customer_information
+    columns: 
+      - name: contact_id
+        tests:
+          - unique
+          - not_null
+      - name: contact_information 
+        tests:
+          - not_null    
+
+  - name: stg_customer_support_events
+    columns:
+      - name: query_id
+        tests:
+          - unique
+          - not_null
+      - name: event_id
+        tests:
+          - unique
+          - not_null    
+      - name: status
+        tests:
+          - accepted_values:
+              values:
+                - resolved
+                - in progress
+      - name: contact_reason
+        tests:
+          - accepted_values:
+              values:
+                - product support
+                - sales inquiry
+                - complaint

@@ -5,5 +5,6 @@
 
 SELECT
     *
-FROM {{ source('src_customer_support_logs', 'support_logs_raw_') }}        
+FROM 
+    {{ source('src_customer_support_logs', 'support_logs_raw_') }}        
 
