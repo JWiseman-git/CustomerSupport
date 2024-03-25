@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: src_customer_support_logs
+    database: customer-support-418213
+    schema: customer_support_logs
+    tables:
+      - name: support_logs_raw_
+      #   freshness:
+      #     warn_after: "{{ now() - 5 * 86400 }}"
+      #     error_after: "{{ now() - 10 * 86400 }}"

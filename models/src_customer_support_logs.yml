@@ -1,8 +1,0 @@
-version: 2
-
-sources:
-  - name: src_customer_support_logs
-    database: customer-support-418213
-    schema: customer_support_logs
-    tables:
-      - name: support_logs_raw
