@@ -13,5 +13,7 @@ Raw data is captured on the status of customer support queries made to company X
 
 **dbt models can be found in the repo here and edited [here](https://cloud.getdbt.com/develop/253653/projects/361429)**
 
+**dbt docs can be found [here]()**
+
 _Disclaimer: Data generated using ChatGPT does not reflect any real world opinions_
 
