@@ -6,4 +6,4 @@
 SELECT
     *
 FROM
-    {{ ref('stg_customer_information') }}
+    {{ ref('stg_customer_support_events') }}
